@@ -157,6 +157,11 @@ nav.main-nav a.active {
   font-weight: 800;
   letter-spacing: 0.02em;
 }
+.page-hero p {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  color: #f4e6ec;
+}
 
 /* ---------- Sections ---------- */
 
@@ -188,6 +193,23 @@ h3.section-sub {
 }
 
 /* ---------- Research areas ---------- */
+
+.research-intro {
+  max-width: 780px;
+  margin: 0 auto 12px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+.research-intro p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+.research-intro p:last-child {
+  color: var(--vt-maroon-dark);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
 
 .research-area {
   display: flex;
