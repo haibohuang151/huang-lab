@@ -221,7 +221,7 @@ h3.section-sub {
 
 .research-area figure {
   margin: 20px auto;
-  max-width: 640px;
+  max-width: 900px;
   width: 100%;
   background: var(--bg-soft);
   border-radius: var(--radius);
