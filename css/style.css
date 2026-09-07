@@ -378,7 +378,8 @@ h3.section-sub {
 
 /* ---------- Publications ---------- */
 
-.pub-list { list-style: none; padding: 0; margin: 16px 0 0; counter-reset: pub; }
+.pub-year-wrap { counter-reset: pub; }
+.pub-list { list-style: none; padding: 0; margin: 16px 0 0; }
 .pub-list li {
   counter-increment: pub;
   padding: 12px 0 12px 44px;
