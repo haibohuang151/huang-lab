@@ -416,6 +416,7 @@ footer.site-footer a { color: #f2c9d6; }
 .news-teaser ul { margin: 0; padding-left: 20px; }
 .news-teaser li { margin-bottom: 10px; }
 .news-teaser .more { margin-top: 16px; display: inline-block; font-weight: 700; }
+.home-news-date { color: var(--vt-orange); }
 
 .home-grid {
   display: grid;
