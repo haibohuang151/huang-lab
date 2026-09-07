@@ -411,7 +411,7 @@ h3.section-sub {
   color: #fff;
   border-radius: var(--radius);
   padding: 28px;
-  text-align: center;
+  text-align: left;
 }
 .contact-box a { color: #fff; text-decoration: underline; }
 
