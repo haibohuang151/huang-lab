@@ -298,6 +298,8 @@ h3.section-sub {
 .pi-card img { border-radius: var(--radius); width: 100%; }
 .pi-card h3 { margin: 0 0 2px; color: var(--vt-maroon); font-size: 1.4rem; }
 .pi-card .role { color: var(--vt-orange); font-weight: 700; margin-bottom: 10px; }
+.icon-link { display: inline-flex; align-items: center; gap: 5px; }
+.icon-link-svg { flex-shrink: 0; }
 @media (max-width: 600px) {
   .pi-card { grid-template-columns: 1fr; }
   .pi-card img { max-width: 220px; margin: 0 auto; }
