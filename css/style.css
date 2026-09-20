@@ -145,6 +145,28 @@ nav.main-nav a.active {
   color: #f4e6ec;
 }
 
+.hero-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 14px;
+  max-width: 900px;
+  margin: 22px auto 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.hero-areas .sep {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+}
+@media (max-width: 700px) {
+  .hero-areas .sep { display: none; }
+}
+
 .page-hero {
   background: linear-gradient(135deg, var(--vt-maroon) 0%, var(--vt-maroon-dark) 100%);
   color: #fff;
