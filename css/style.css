@@ -641,6 +641,8 @@ h3.section-sub {
   margin-bottom: 24px;
 }
 .join-card h3 { margin-top: 0; color: var(--vt-maroon); }
+.join-card p:first-child { margin-top: 0; }
+.join-card p:last-child { margin-bottom: 0; }
 
 .contact-box {
   background: var(--vt-maroon);
