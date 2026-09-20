@@ -356,7 +356,7 @@ h3.section-sub {
 
 .pi-card {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 231px 1fr;
   gap: 28px;
   align-items: start;
   background: var(--bg-soft);
@@ -372,7 +372,7 @@ h3.section-sub {
 .icon-link-svg { flex-shrink: 0; }
 @media (max-width: 600px) {
   .pi-card { grid-template-columns: 1fr; }
-  .pi-card img { max-width: 220px; margin: 0 auto; }
+  .pi-card img { max-width: 231px; margin: 0 auto; }
 }
 
 .group-photos {
