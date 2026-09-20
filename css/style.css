@@ -351,6 +351,8 @@ h3.section-sub {
 .member-info .edu { font-size: 0.8rem; color: var(--muted); }
 .member-info .edu div { margin-bottom: 1px; }
 .member-info .next { font-size: 0.8rem; color: var(--muted); margin-top: 6px; font-style: italic; }
+.member-info .research { font-size: 0.8rem; color: var(--ink); margin-top: 8px; }
+.member-info .research strong { color: var(--vt-maroon-dark); }
 
 .pi-card {
   display: grid;
