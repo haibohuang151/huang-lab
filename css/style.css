@@ -387,6 +387,38 @@ h3.section-sub {
   object-fit: cover;
 }
 
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 28px 0 40px;
+}
+.cta-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--vt-maroon);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.cta-btn:hover {
+  background: var(--vt-maroon-dark);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.cta-btn-alt {
+  background: var(--vt-orange);
+}
+.cta-btn-alt:hover {
+  background: #c25f16;
+}
+
 .awards-list {
   columns: 2;
   column-gap: 40px;
