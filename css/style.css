@@ -475,6 +475,45 @@ h3.section-sub {
   .talent-arrow { transform: rotate(90deg); padding: 4px 0; }
 }
 
+.closing-cta {
+  background: linear-gradient(135deg, var(--vt-maroon) 0%, var(--vt-maroon-dark) 100%);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 48px 32px;
+  text-align: center;
+  margin-top: 56px;
+  box-shadow: var(--shadow);
+}
+.closing-cta h2 {
+  margin: 0 0 12px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.closing-cta p {
+  max-width: 640px;
+  margin: 0 auto 24px;
+  color: #f4e6ec;
+  font-size: 1.05rem;
+}
+.closing-cta-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--vt-orange);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.closing-cta-btn:hover {
+  background: #c25f16;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
 .awards-list {
   columns: 2;
   column-gap: 40px;
