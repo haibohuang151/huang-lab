@@ -127,7 +127,7 @@ nav.main-nav a.active {
 .hero {
   background: linear-gradient(135deg, var(--vt-maroon) 0%, var(--vt-maroon-dark) 100%);
   color: #fff;
-  padding: 64px 24px 56px;
+  padding: 40px 24px 32px;
   text-align: center;
 }
 
