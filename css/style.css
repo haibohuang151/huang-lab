@@ -170,7 +170,7 @@ nav.main-nav a.active {
 .page-hero {
   background: linear-gradient(135deg, var(--vt-maroon) 0%, var(--vt-maroon-dark) 100%);
   color: #fff;
-  padding: 42px 24px;
+  padding: 22px 24px;
   text-align: center;
 }
 .page-hero h1 {
