@@ -629,6 +629,14 @@ h3.section-sub {
   font-weight: 700;
 }
 .pub-year-note { color: var(--muted); font-size: 0.85rem; }
+.pub-link {
+  margin-left: 4px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--vt-orange);
+  white-space: nowrap;
+}
+.pub-link:hover { color: #c25f16; }
 
 /* ---------- Join Us ---------- */
 
