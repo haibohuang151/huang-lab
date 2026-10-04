@@ -634,9 +634,9 @@ h3.section-sub {
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--vt-orange);
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
-.pub-link:hover { color: #c25f16; }
+.pub-link:hover { color: #c25f16; text-decoration: underline; }
 .pub-ga {
   display: block;
   width: fit-content;
