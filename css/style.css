@@ -132,10 +132,13 @@ nav.main-nav a.active {
 }
 
 .hero h1 {
-  margin: 0 0 14px;
-  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+  max-width: 880px;
+  margin: 0 auto 16px;
+  font-size: clamp(1.6rem, 3.3vw, 2.45rem);
   font-weight: 800;
-  letter-spacing: 0.02em;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
+  text-wrap: balance;
 }
 
 .hero p {
@@ -143,6 +146,22 @@ nav.main-nav a.active {
   margin: 0 auto;
   font-size: 1.15rem;
   color: #f4e6ec;
+  text-wrap: balance;
+}
+.hero p.hero-lead {
+  max-width: 780px;
+  font-size: 1.28rem;
+  font-weight: 500;
+  color: #fff;
+}
+.hero p.hero-sub {
+  margin-top: 14px;
+  font-size: 1.05rem;
+  color: #e8d2db;
+}
+@media (max-width: 600px) {
+  .hero p.hero-lead { font-size: 1.08rem; }
+  .hero p.hero-sub { font-size: 0.95rem; }
 }
 
 .hero-areas {
