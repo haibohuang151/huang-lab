@@ -561,6 +561,15 @@ h3.section-sub {
   transition: transform 0.15s ease;
 }
 .news-photos img:hover { transform: scale(1.04); }
+.news-photos.news-ga { grid-template-columns: minmax(0, 560px); }
+.news-photos.news-ga img {
+  height: auto;
+  padding: 6px;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.news-photos.news-ga img:hover { transform: translateY(-2px); }
 
 .lightbox-overlay {
   position: fixed;
