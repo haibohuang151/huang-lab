@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var container = document.getElementById('home-news-list');
   if (!container) return;
 
-  fetch('news.html')
+  fetch('news.html', { cache: 'no-cache' })
     .then(function (res) {
       if (!res.ok) throw new Error('fetch failed');
       return res.text();
@@ -20,11 +20,28 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!dateEl || !textEl) return;
 
         var li = document.createElement('li');
+        var body = document.createElement('div');
+        body.className = 'home-news-body';
         var dateSpan = document.createElement('strong');
         dateSpan.className = 'home-news-date';
         dateSpan.textContent = dateEl.textContent.trim() + ': ';
-        li.appendChild(dateSpan);
-        li.appendChild(document.createTextNode(textEl.textContent.trim()));
+        body.appendChild(dateSpan);
+        body.appendChild(document.createTextNode(textEl.textContent.trim()));
+        li.appendChild(body);
+
+        var photo = item.querySelector('.news-photos img');
+        if (photo && photo.getAttribute('src')) {
+          var thumb = document.createElement('a');
+          thumb.className = 'home-news-thumb';
+          if (photo.closest('.news-ga')) thumb.className += ' is-graphic';
+          thumb.href = 'news.html';
+          var img = document.createElement('img');
+          img.src = photo.getAttribute('src');
+          img.alt = photo.getAttribute('alt') || '';
+          img.loading = 'lazy';
+          thumb.appendChild(img);
+          li.appendChild(thumb);
+        }
         ul.appendChild(li);
       });
 
