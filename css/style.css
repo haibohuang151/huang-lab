@@ -512,6 +512,7 @@ h3.section-sub {
   padding-left: 20px;
 }
 .awards-list li { break-inside: avoid; margin-bottom: 10px; font-size: 0.92rem; }
+.back-link { margin: 0 0 22px; font-size: 0.92rem; font-weight: 700; }
 .awards-list strong { color: var(--vt-maroon-dark); }
 @media (max-width: 700px) { .awards-list { columns: 1; } }
 
