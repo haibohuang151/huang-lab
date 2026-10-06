@@ -134,7 +134,7 @@ nav.main-nav a.active {
 .hero h1 {
   max-width: 880px;
   margin: 0 auto 16px;
-  font-size: clamp(1.6rem, 3.3vw, 2.45rem);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.005em;
